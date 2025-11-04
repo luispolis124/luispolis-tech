@@ -13,13 +13,20 @@
     </header>
 
     <div class="content">
-        <h2>Bem-vindo(a) à nossa Base de Operações!</h2>
-        <p>Estamos prontos para transformar suas ideias em realidade digital, diretamente do seu bolso.</p>
-        
-        <button id="btn-contato">Saiba Mais</button>
-        <p id="status-message" style="margin-top: 20px; color: #007bff;"></p>
-    </div>
+        <h2>Fale Conosco</h2>
+        <p>Envie sua solicitação e responderemos em breve em luisfelipovi@gmail.com.</p>
 
+        <form action="https://formspree.io/f/myzbqrer" method="POST"> 
+            
+            <input type="email" name="_replyto" placeholder="Seu E-mail" required style="padding: 10px; margin-bottom: 10px; width: 80%; border: 1px solid #ccc; border-radius: 5px;">
+            <br>
+            <textarea name="message" placeholder="Sua Mensagem..." rows="4" required style="padding: 10px; margin-bottom: 15px; width: 80%; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+            <br>
+            <button type="submit">Enviar Mensagem</button>
+
+            <input type="text" name="_gotcha" style="display:none">
+        </form>
+    </div>
     <script src="script.js"></script>
 
 </body>
